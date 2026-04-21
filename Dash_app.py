@@ -126,4 +126,4 @@ print(f"Percentage Change: {((after_increase.mean() - before_increase.mean()) / 
 print("\n" + "=" * 60 + "\n")
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8050)
+    app.run(debug=True, host="127.0.0.1", port=8050)
